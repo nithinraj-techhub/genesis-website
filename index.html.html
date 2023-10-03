@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Genesis coding school</title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+
+	<style type="text/css">
+		.discount_box{
+			background-color: black;
+			text-align: center; 		
+			height: 35px;
+			padding-top: 4px;
+		}
+		.bg-img{
+			background-image: url("navbar-transparent-2.png");
+			min-height: 100px;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: -webkit-sticky;
+			position: sticky; 
+			top: 0;
+			z-index: 2;
+
+		}
+		
+		.logo{
+			position: relative;
+			top: 20px;
+			left: 5px;			
+		}
+		.bg-img-two{
+			width: 100%;
+			height: 550px;
+			opacity: 0.8;
+
+		}
+		.second_heading{
+			margin-top: 60px;
+		}
+		.our_offerings a:hover{
+			background-color: #262382;
+		}
+		.last_two_card{
+			font-weight: bold;
+			font-size: 30px;
+		}
+		.first_card_button{
+			position: relative;
+			top: 130px;
+		}
+		.sec_card_button{
+			position: relative;
+			top: 110px;
+		}
+		.third_card_button{
+			position: relative;
+			top: 108px;
+		}
+		@media only screen and (max-width: 992px){
+			.last_two_card{
+			  font-weight: 1000;
+			  font-size: 16px;
+		    }
+		    .first_card_button{
+			  position: relative;
+			  top: 138px;
+		    }
+		   .sec_card_button{
+			  position: relative;
+			  top: 135px;
+		   }
+		   .third_card_button{
+			  position: relative;
+			  top: 139px;
+		   }
+
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col discount_box text-white justify-content-center">
+				Early bird discount available on our courses!
+			</div>
+		</div>
+		<div class="bg-img" style="margin-left: -15px;margin-right: -15px;">
+			<img class="logo" src="genesis_logo.webp" alt="Genesis logo">
+			<nav class="navbar navbar-expand-md  navbar-dark justify-content-end" > 
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span></button>
+
+
+				<div class="collapse navbar-collapse " id="navbarSupportedContent" >
+
+					<ul class="navbar-nav ml-auto " > 
+						<li class="nav-item "> 
+							<a class="nav-link text-white" href="#">Home</a> 
+						</li> 
+						<li class="nav-item">
+							<div class ="dropdown "> 
+								<a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" href="#">Our Offerings</a>
+								<div class="dropdown-menu our_offerings" style="background-color:#262382;">
+									<a class="dropdown-item text-white" 
+									   href="Our_offerings_fullstack_devolopment.html">Full Stack Development</a> 
+									<a class="dropdown-item text-white" href="#">Agile Business Analysis</a> 
+									<a class="dropdown-item text-white" href="#">Front End Coursework</a>
+									<a class="dropdown-item text-white" href="#">Software Testing Programs</a>
+									<a class="dropdown-item text-white" href="#">Certification Programs</a>
+									<a class="dropdown-item text-white" href="#">Programming for Children</a>
+									<a class="dropdown-item text-white" href="#">Placement Services</a>
+									<a class="dropdown-item text-white" href="#">Agile Certifications</a>
+								</div>
+							</div>
+						</li> 
+						<li class="nav-item">					    
+							<a class="nav-link text-white" href="why_genesis.html">Why Genesis?</a> 
+						</li>
+						<li class="nav-item"> 
+							<a class="nav-link text-white" href="Genesis_login_page.html">Contact Us</a> 
+						</li> 
+					</ul> 
+
+				</div>
+			</nav>
+		</div>
+		<div class="card" data-aos="fade-down" style="border: none;margin-left: -15px;margin-right: -15px;">
+			<img src="coding-img.webp" alt="image not found" class="bg-img-two" >
+			<div class="card-img-overlay text-white mt-5  ml-5 " >
+				<h1 class="card-title" style="font-size: 50px;font-weight: bold;">Genesis Coding School</h1>
+				<p class="card-text mb-4"><b><i>A new age coding school formed with a mission to provide the best computer education</i></b></p>
+
+				<a href="https://www.linkedin.com/company/genesis-coding-school" 
+				class="btn btn-light btn-lg rounded-pill text-dark" target="_blank"><b>Learn More</b></a>&nbsp;&nbsp;&nbsp;
+
+				<a href="https://www.linkedin.com/company/genesis-coding-school" 
+				class="btn btn-light btn-lg rounded-pill text-dark"  target="_blank"><b>+91 80756 47550</b></a>
+
+			</div>
+		</div>
+
+		<div class="container">
+			<h5 class="second_heading">Our Flagship Industry Courses:</h5><br><hr><br>
+			<div class="card-deck">
+				<div class="card" style="border: none;">
+					<img src="full-stack-img2.jpg" alt="image not found" style="width: 100%;height: 500px;opacity: 0.3">
+					<div class="card-img-overlay text-primary  " > 
+						<h4 class="title text-center mt-5 last_two_card">Full Stack Course</h4>
+						 
+						<div class=" mt-5 text-center">
+							<a href="Our_offerings_fullstack_devolopment.html" 
+							   class="btn btn-primary btn-lg rounded-pill mt-3 first_card_button">Learn More</a> 
+							  
+						</div>
+					</div>
+				</div>
+				<div class="card" style="border: none;">
+					<img src="full-stack-img2.jpg" alt="image not found" style="width: 100%;height: 500px;opacity: 0.3">
+					<div class="card-img-overlay text-primary" > 
+						<h4 class="title text-center mt-5 last_two_card" >Front end Web development</h4>
+						<div class=" mt-5 text-center">
+							<a href="#" class="btn btn-primary btn-lg rounded-pill  sec_card_button" >Learn More</a>
+						</div>
+					</div>
+				</div>
+				<div class="card" style="border: none;">
+					<img src="full-stack-img2.jpg" alt="image not found" style="width: 100%;height: 500px;opacity: 0.3">
+					<div class="card-img-overlay text-primary" > 
+						<h4 class="title text-center mt-5 last_two_card" >Basic Web Development</h4>
+						<div class=" mt-5 text-center">
+							<a href="#" class="btn btn-primary btn-lg rounded-pill  third_card_button" >Learn More</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h5 class="second_heading">Photos:</h5><br><hr><br>
+			<div class="row">
+				<!-- <div class="col-1"></div> -->
+				<div class="col" data-aos="fade-zoom-in">
+					<div id="demo" class="carousel slide" data-ride="carousel"> 
+
+						<div class="carousel-inner"> 
+							<div class="carousel-item active"> 
+								<img src="caurosel1.webp" alt="Img not found" width="100%" height="500"> 
+							</div> 
+							<div class="carousel-item"> 
+								<img src="caurosal2.webp" alt="Img not found" width="100%" height="500"> 
+							</div> 
+							<div class="carousel-item"> 
+								<img src="caurosal3.webp" alt="Img not found" width="100%" height="500"> 
+							</div>
+							<div class="carousel-item"> 
+								<img src="caurosal4.webp" alt="Img not found" width="100%" height="500"> 
+							</div>
+							<div class="carousel-item"> 
+								<img src="caurosal5.webp" alt="Img not found" width="100%" height="500"> 
+							</div>
+							<div class="carousel-item"> 
+								<img src="caurosal6.webp" alt="Img not found" width="100%" height="500"> 
+							</div>
+						</div>
+						<div class="carousel-controls"> 
+						<a class="carousel-control-prev" href="#demo" data-slide="prev"> 
+							<span class="carousel-control-prev-icon"></span> 
+						</a> 
+
+						<a class="carousel-control-next" href="#demo" data-slide="next"> 
+							<span class="carousel-control-next-icon"></span> 
+						</a>
+					    </div>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="container-fluid" style="background-color: #262382;margin-top: 70px;padding-bottom: 70px;"><br><br>
+		<div class="container">
+			<div class="row text-white ">
+				<!-- <div class="col-3"></div> -->
+				<div class="col">
+					<ul class = "list-inline"> 
+						<li class="list-inline-item" >Full Stack Development</li> 
+						<li class="list-inline-item">Agile Business Analysis</li> 
+						<li class="list-inline-item">Front End Coursework</li>
+						<li class="list-inline-item">Software Testing Programs</li> 
+					</ul>
+				</div>
+			</div>
+			<div class="row text-white">
+				<!-- <div class="col-2"></div> -->
+				<div class="col">
+					<ul class = "list-inline "> 
+						<li class="list-inline-item" >Basics of Web Development</li> 
+						<li class="list-inline-item">Certification Programs</li> 
+						<li class="list-inline-item">Programming for Children</li>
+						<li class="list-inline-item">Placement Services</li> 
+						<li class="list-inline-item">Agile Certifications</li> 
+					</ul>
+				</div>
+
+			</div><br><br>
+			<div class="row text-white">
+				<!-- <div class="col-4"></div> -->
+				<div class="col " >
+					<h4 style="font-size: 25px;font-weight: bold;">Genesis Coding School</h4>
+				</div>
+			</div><br>
+			<div class="row text-white">
+				<!-- <div class="col-3 ml-5"></div> -->
+				<div class="col" style="font-size: 20px;">
+					Arasumoodu Junction, Kulathoor, Thiruvananthapuram, Kerala
+				</div>
+			</div><br>
+			<div class="row text-white">
+				<!-- <div class="col-4"></div> -->
+				<div class="col " >
+					+918075647550 / +918438725511
+				</div>
+			</div><br><br>
+			<div class="row text-white">
+
+				<div class="col" style="color: #cccaca;font-size: 13px;">
+					Copyright © 2023 Genesis Coding School - All Rights Reserved.
+				</div>
+			</div>
+			<div class="row text-white">
+				<div class="col" style="color: #cccaca;font-size: 13px;">
+					Genesis Coding School - Coding Simplified
+				</div>
+			</div>
+		</div>	
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+  AOS.init({
+  	duration: 1500, 
+    offset: 100,
+  });
+</script>
+</body>
+</html>
